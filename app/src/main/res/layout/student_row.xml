@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+
+    app:cardElevation="5dp"
+    android:background="@color/white"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F8FB"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/stidtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id: 181-15-2054"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:gravity="start"
+            />
+        <TextView
+            android:id="@+id/stnametextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: Al Amin Mustaq"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/stidtextview"
+            />
+        <TextView
+            android:id="@+id/stgendertextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender: Male"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/stnametextview"
+            />
+        <TextView
+            android:id="@+id/stdptextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department: CSE"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/stgendertextview"
+            />
+        <TextView
+            android:id="@+id/stphonetextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone: 01882651067"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/stdptextview"
+            />
+        <TextView
+            android:id="@+id/stemailtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Email: amin15-2054@diu.edu.bd"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/stphonetextview"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

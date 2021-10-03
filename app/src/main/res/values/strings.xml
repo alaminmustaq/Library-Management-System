@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library Management System</string>
+    <string-array name="Department">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>SWE</item>
+        <item>BBA</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

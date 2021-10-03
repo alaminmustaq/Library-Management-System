@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Student">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/addstudentid"
+                    android:icon="@drawable/add_icon"
+                    android:title="Add Student info" />
+                <item
+                    android:id="@+id/viewstudentid"
+                    android:icon="@drawable/view_icon"
+                    android:title="View Student info" />
+                <item
+                    android:id="@+id/updatestudentid"
+                    android:icon="@drawable/update_icon"
+                    android:title="Update Student info" />
+                <item
+                    android:id="@+id/deletestudentid"
+                    android:icon="@drawable/delete_icon"
+                    android:title="Delete Student info" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Book">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/addbookid"
+                    android:icon="@drawable/add_icon"
+                    android:title="Add Book info" />
+                <item
+                    android:id="@+id/viewbookid"
+                    android:icon="@drawable/view_icon"
+                    android:title="View Book info" />
+                <item
+                    android:id="@+id/updatebookid"
+                    android:icon="@drawable/update_icon"
+                    android:title="Update Book info" />
+                <item
+                    android:id="@+id/deletebooktid"
+                    android:icon="@drawable/delete_icon"
+                    android:title="Delete Book info" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/statisticid"
+            android:icon="@drawable/statistic_icon"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/logoutid"
+            android:icon="@drawable/logout_icon"
+            android:title="Log out" />
+
+    </group>
+</menu>

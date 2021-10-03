@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Projects/LibraryManagementSystem/app/src/main/res/drawable/btnshap0.xml" value="0.2074074074074074" />
+        <entry key="..\:/Android_Projects/LibraryManagementSystem/app/src/main/res/drawable/btnshape2.xml" value="0.2175925925925926" />
+        <entry key="..\:/Android_Projects/LibraryManagementSystem/app/src/main/res/layout/activity_add_book.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/LibraryManagementSystem/app/src/main/res/layout/student_row.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshap0.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshap0_1.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape.xml" value="0.2962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape2.xml" value="0.2962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape3.xml" value="0.2962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape4.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape5.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/btnshape6.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/ic_baseline_local_library_24.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/ic_wave.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/image_boarder.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/loginbackground.xml" value="0.2962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/logout_icon.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/search_icon.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/shadow_layout.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/statistic_icon.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/update_icon.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/view_background.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/drawable/view_icon.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_add_book.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_add_student.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_delete_book.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_delete_student_info.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_issue_book.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_return_book.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_statistic.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_update_book.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_update_student.xml" value="0.33242753623188404" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_view_book.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/activity_view_student.xml" value="0.3007246376811594" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/book_row.xml" value="0.29257246376811596" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/department_view.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/fragment_empty.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/fragment_issuebookrec.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/fragment_returnbookrec.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/issubooklayout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/nav_header.xml" value="0.34692028985507245" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/statistic_row.xml" value="0.2753623188405797" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/student_row.xml" value="0.29257246376811596" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/sugessition_view.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/layout/toolbar.xml" value="0.2572463768115942" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/menu/drawer_menu.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/menu/search_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibraryManagementSystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

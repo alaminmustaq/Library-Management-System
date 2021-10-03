@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:fitsSystemWindows="true"
+    tools:context=".Home"
+    tools:openDrawer="start">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#DA6B90"
+            android:id="@+id/toolbarid"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:src="@drawable/home_image" />
+
+
+
+        <LinearLayout
+            android:id="@+id/buttonlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:onClick="issue_book"
+                android:background="@drawable/btnshap0"
+                android:textColor="@color/white"
+                android:text="Issue book"
+                android:elevation="20dp"
+                ></Button>
+
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:onClick="return_book"
+                android:background="@drawable/btnshap0_1"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="return book"></Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu"/>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

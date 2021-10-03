@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.librarymanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibraryManagementSystem">
+        <activity
+            android:name=".forgot_password"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".view_book"
+            android:exported="true" />
+        <activity
+            android:name=".view_student"
+            android:exported="true" />
+        <activity
+            android:name=".delete_book"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".update_book"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".delete_student_info"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".update_student"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity android:name=".statistic" />
+        <activity
+            android:name=".return_book"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".issue_book"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".add_book"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".add_student"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.LibraryManagementSystem.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

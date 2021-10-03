@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="5dp"
+    android:background="@color/white"
+    android:foreground="?android:attr/selectableItemBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F8FB"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/bknametextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: Himu"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/bkanametextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author Name: HA"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/bknametextview"
+            />
+        <TextView
+            android:id="@+id/bkpublishertextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Publisher: Onno Prokash"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/bkanametextview"
+            />
+        <TextView
+            android:id="@+id/bknotextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No of books: 10"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/bkpublishertextview"
+            />
+        <TextView
+            android:id="@+id/bkloctextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: Shelves 1, row 2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/bknotextview"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

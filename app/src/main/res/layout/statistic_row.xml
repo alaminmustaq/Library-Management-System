@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="5dp"
+    android:background="@color/white"
+    android:foreground="?android:attr/selectableItemBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F8FB"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/stidtextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Student Id: 181-15-2054"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:gravity="start"
+            />
+        <TextView
+            android:id="@+id/bknametextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Name: Al Amin Mustaq"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/stidtextview"
+            />
+        <TextView
+            android:id="@+id/authornametextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author Name: abc"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/bknametextview"
+            />
+        <TextView
+            android:id="@+id/issuedatetextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Issue Date: 123"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/authornametextview"
+            />
+        <TextView
+            android:id="@+id/duedatetextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Due Date: 321"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/issuedatetextview"
+            />
+        <TextView
+            android:id="@+id/returndatetextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return Date: 456"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/duedatetextview"
+            />
+        <TextView
+            android:id="@+id/statustextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: 456"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_below="@+id/returndatetextview"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
